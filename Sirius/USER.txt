@@ -1,0 +1,98 @@
+**** SKYWAY *******
+
+https://www.skywayplatform.com/skyway-platform/login?backUrl=%252Ftms%252Fanalysis%252Fbasic&tenantCode=1143
+
+
+<p>******* AXIROS *********</r>
+http://172.17.8.153:9673/live/AXCustomerSupportPortal/#/login</p>
+
+
+<p>QFLOW --> </br>
+https://qflowgt/QFlow62/SignIn.aspx</p>
+
+</p>FALLAS CLARO</br>
+http://172.16.194.43/intra-sac/fallas_multimedia/listado_fallas.php#</p>
+
+*MI PAGO CLARO*
+https://gt.mipagoclaro.com/#/
+
+ETA:
+https://amx-res-cenam.etadirect.com/
+
+GUI CLARO VIDEO 
+http://clarovideo.sac.claro.com.gt:5502/ClaroVideoGt/
+
+LINK INTRASAC:
+http://172.17.242.185:1929/intraSac
+
+LINK SUIT - REDES: 
+https://amx-gt-ase-livechat-agents-pro.azurewebsites.net/es/Principal#! 
+
+UMP
+http://10.78.33.196:8090/#/lines/GT%23991986
+
+
+*******************************************************************
+USUARIO DE RED:
+
+USER: ORJOSE.ZCAMACHO
+PASSW: Colombia2024*
+
+*** CORREOS:
+
+USER: ORJOSE.ZCAMACHO
+PASSW: Colombia2024*
+
+*** PISA -- SERVER-- 100
+
+USER: OZ083244
+PASSW: OZ198090
+
+***WEBCLIENT
+
+USER: OZ083244
+PASSW: Colombia2023*
+
+*** QFLOW
+USER: clarogt\orjose.zcamacho
+PASSW: OZ83*J40
+
+*** ETA- CONSULTAR QUEJA
+
+USER: OZ083244
+PASSW: Colombia2023*
+
+*** GUI - CLARO IPTV
+
+USER: orjose.zcamacho
+PASSW: OZ83*J40 
+
+*** SIP 
+
+USER: ORJOSE.ZCAMACHO
+PASSW: 1234
+
+*** UMP
+
+USER: ORJOSE.ZCAMACHO
+PASSW: Orjose.Zcamacho!23
+
+AXIROS:
+
+USER: GT/ORJOSE.ZCAMACHO
+PASSW: OZ83*J40
+
+
+SUIT
+WGM83244
+Claro123
+
+
+MEDALIA
+CLAROGT.ORJOSE.ZCAMACHO
+Clarovoc2020!
+
+LOGIN ADHERENCIA
+NUM: 52143
+
+INTRASAC
