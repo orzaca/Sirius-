@@ -1,0 +1,224 @@
+
+
+- Campaña Ventas (TMK)     	
+https://wa.me/50242147100?text=Adquiere%20tus%20servicios%20con%20Claro
+
+
+----------------------------------SALUDO--------------------------------------
+
+👋 Hola, gracias por comunicarte a Claro. ¡Crecemos junto a ti! 🙌 Te saluda Thalía Echavarría. ¿Con quién tenemos el agrado y cómo te podemos apoyar? 😉
+
+
+--------------------------------PAGO RECIENTE---------------------------------
+
+Celeste, muchas gracias por tu amable espera en línea. ⌛ Hemos validado en sistema y realizaste el pago tu servicio suspendido recientemente, por ello la demora en la reactivación. En este caso vamos a enviar unas configuraciones desde el sistema con tal de liberarlo de manera manual y en caso de no funcionar deberás esperar de 2 a 4 horas a partir de la hora del pago a que el sistema libere tu servicio de manera automática. 😉
+
+--------------------------------INTERNET---------------------------------------
+
+ADSL
+
+** Portadora apagada **
+
+¿Internet y línea?
+
+SI 
+
+¿Nos confirmas por favor si cuenta con extensiones? 
+
+NO 
+
+Apóyanos por favor con la siguiente validación de tus conexiones. 🙏 Verifica que el cable que sale de tu aparato telefonico al microfiltro este conectado a la entrada que dice Phone o tiene el dibujo de un telefono tal como se ve en la siguiente imagen. 👇
+
+
+** ENVIAR INFOGRAFIA **
+
+Adicional a ello, por favor desconecta ese mismo cable, es decir, el que va del aparato teefonico al microfiltro e invierte los extremos. 🔌
+
+
+¿Internet y línea?
+
+NO
+
+Apóyanos por favor con la siguiente validación de tus conexiones. 🙏 Verifica que el cable que sale de tu router al microfiltro este conectado a la entrada que dice DSL o ADSL tal como se ve en la siguiente imagen. 👇
+
+** ENVIAR INFOGRAFIA **
+
+Adicional a ello, por favor desconecta ese mismo cable, es decir, el que va del router al microfiltro e invierte los extremos. 🔌
+
+**VERIFICAR QUE LA VELOCIDAD COINCIDA CON LA TECNOLOGIA**
+
+¿Configuración correcta? 
+
+SI
+
+Reset de puertos, si es msan desde la op 12 en pisa
+
+¿Nos confirmas por favor si la luz en tu router con nombre DSL encendió? 💡
+
+
+
+
+**Falla voz y datos**
+
+
+Apóyanos por favor con la siguiente validación de tus conexiones. 🙏 Verifica que el cable que sale de tu router al microfiltro este conectado a la entrada que dice DSL y el cable que sale de tu telefono al microfiltro esté en la entrada que dice Phone, tal como indica la siguiente imagen. 👇
+
+Adicional a ello, por favor desconecta el cable que va de tu teléfono al microfiltro por 2 minutos y lo conectas nuevamente invirtiendo los extremos. 🔌
+
+
+**reset**
+
+
+Vamos a realizar un reset a tu router. 📶 En la parte de atrás del router hay un agujero pequeño que indica *reset*: presiona con una aguja y lo vas a mantener presionado por diez segundos hasta que todas las luces del router se apaguen, solo quedará encendida la de Power, cuando eso suceda retiras la aguja y esperemos que el router nuevamente se configure. 🚀 
+
+Tu nombre de red y contraseña volverán a ser las de fábrica y las encontraras en un sticker ubicado en la parte de atrás o debajo de tu router. ✅
+
+
+**Posible router dañado**
+
+
+Para confirmar que el router no esté dañado o quemado, ¿podrías apoyarnos a realizar las siguientes pruebas por favor? 👉Presiona el botón del router que dice Power o indique ON/OFF para confirmar si las luces encienden. 👉En caso no encienden apóyanos colocándolo en otro tomacorriente, una vez colocado en otro conector de corriente presionas el mismo botón, si sigue sin encender realizando este proceso agradeceré nos puedas confirmar por esta vía, por favor. 👍
+
+
+**Luz internet rojo**
+
+
+¿Podrías apoyarnos a realizar las siguientes pruebas por favor? 👉Presiona el botón del router que dice Power o indique ON/OFF para confirmar si la luz de internet cambia de color. 👉En caso de que siga de color rojo, apóyanos colocándolo en otro tomacorriente, una vez colocado en otro conector de corriente presionas el mismo botón, si sigue de color rojo realizando este proceso agradeceré nos puedas confirmar por esta vía, por favor. 👍
+
+**Luz internet apagado**
+
+¿Podrías apoyarnos a realizar la siguiente prueba, por favor? 👉 Presiona el botón del router que dice Power o indique ON/OFF para confirmar si la luz de internet enciende. 👉 En caso no encienda agradeceré nos puedas confirmar por esta vía, por favor. 👍
+
+
+HFC
+
+
+Por favor apóyanos con la verificación de las conexiones en tu router. 🙏 
+
+1️⃣ Asegúrate de que el cable coaxial en la parte de atrás de tu router se encuentre bien ajustado, de no estarlo, por favor ajustalo. 
+
+2️⃣ Desconecta de la corriente tu router 🔌 durante 3 minutos y lo conectas nuevamente cambiándolo de tomacorriente. 
+
+GPON
+
+**Posible ONT dañada**
+
+xxx, apóyanos por favor verificando 🔎 que no haya cortes físicos en tu fibra óptica.
+
+XXXXXX, desconecta tu router de la corriente y lo conectas a un tomacorriente diferente sin moverlo de lugar para evitar dañar la fibra. 🔌. 
+y despues presiona el botón de power, esperas 2 minutos y lo vuelves a presionar encendiendo 💡 tu router, esperas por favor otro par de minutos a que enciendan todas las luces y nos confirmas si el inconveniente persiste. 
+
+Reset ---
+
+Apoyanos por favor con los siguientes pasos. 👇
+
+1️⃣ Menú (con el control de tu cajita)
+2️⃣ Ajustes de sistema
+3️⃣ Más
+4️⃣ Reinicio de fábrica
+5️⃣ Borrar todo. 
+
+
+INESTABILIDAD
+
+
+John, apóyanos por favor realizando los siguientes pasos. 👇
+
+1️⃣ Presiona de manera simultánea las teclas Windows + R
+
+2️⃣ En el cuadro de búsqueda que te va a salir vas a escribir las siglas 👉 cmd
+
+3️⃣ Te va a salir un recuadro de color negro donde vas a escribir el siguiente comando 👉 ping www.google.com -n 50 👈 y presionas enter.
+
+4️⃣ Por favor compártenos una foto 📷 del resultado final. 
+
+Nota: por favor copia y pega el comando que te indicamos para así evitar errores de transcripción al momento de la ejecución. ✅
+
+
+xxx, la prueba realizada nos indica que tu servicio en estos momentos se encuentra funcionando de manera correcta, sin embargo, realizamos unas configuraciones en nuestro sistema para que la conectividad se te pueda mantener y no sigas presentando este tipo de inconvenientes. ¡No te preocupes! ⌛ Realmente nos encargaremos de que tu servicio de internet pueda funcionar sin ninguna falencia. ✔
+
+xxx, en todo caso, lo recomendable es que te comuniques con nosotros en el momento en que tu servicio está fallando para poder validar en tiempo real qué está afectándolo. 😉
+
+
+MIGRACIÓN GPON 
+
+
+Julio, queremos ofrecerte disculpas por los inconvenientes en tu servicio de Claro Hogar. En estos momentos te quedaste sin servicio debido a trabajos de migración de la red que se están realizando en tu sector. Estamos migrando a todos nuestros clientes de Claro Hogar en hacia nuestra nueva tecnología de Claro Fibra, con este cambio en tu Internet tendrá:
+
+✅ Un servicio más estable 
+✅ Mejor cobertura Wifi en su casa 
+✅ Velocidades más altas, hasta 200 Megas 
+
+¿Te gustaría migrar tu servicio? 😀 
+
+
+LENTITUD
+
+Mely, evidenciamos en el sistema que en estos momentos hay 4 dispositivos conectados a tu red. 📶 Es necesario que por favor los desconectes durante las validaciones y solo dejes conectado tu móvil. 📱
+
+Mely, ten en cuenta que tu velocidad va a variar dependiendo de la cantidad de dispositivos conectados a la red en simultaneo. 😉
+
+La prueba de velocidad está acorde a lo que tienes contratado, sin embargo, realizamos algunas configuraciones en nuestro sistema para que la conectividad sea más estable y no sigas presentando este tipo de inconvenientes. Lamentamos los inconvenientes ocasionados ⌛ Realmente nos encargaremos de que tu servicio de Internet pueda funcionar sin ningún problema. ✔
+
+Alex, te explico, tu servicio cuenta con 2 tipos de redes, la 2.4 GHz (CLARO_M8tMBs) que te brindará mayor alcance de señal dentro de tu domicilio a una velocidad máxima de 50 megas, y una red 5 GHz (CLARO_SCH2nm) que tendrá menor alcance de señal dentro de tu domicilio, pero te brindará la cantidad completas de megas contratados. ✅
+
+CAMBIO CONTRASEÑA 
+
+Para apoyarte con el cambio de contraseña es necesario que por favor nos valides el número DPI del titular del servicio. 🙏
+
+Bríndanos por favor la nueva contraseña que deseas para tu red. 📶
+
+Bríndanos por favor el nuevo nombre que deseas para tu red. 📶
+
+FILTRADO MAC
+
+Lamentablemente no contamos con ese tipo de configuraciones, Alexander. 😔 Lo que podemos ofrecerte es un filtrado del acceso a tu router a través de la Mac Address de los dispositivos.📱
+
+Para realizar este proceso hay dos formas.
+
+1️⃣ Nos brindas la Mac Address de los dispositivos que NO deseas que tengan acceso a tu red wifi. 
+2️⃣ Nos brindas la Mac Address de los dispositivos que SI deseas que tengan acceso a tu red wifi. Ten en cuenta que con esta opción, solo los dispositivos que nos indiques podrán conectarse a la red, por tanto, si adquieres un dispositivo nuevo o deseas compartirle tu red a una visita, estos dispositivos no podrán conectarse y deberás comunicarte con nosotros para concederles el acceso. (Este proceso tarda un lapso de 24 a 72 horas en hacerse efectivo).
+
+----------------------------------ENCUESTA------------------------------------
+ 
+ORIGINAL
+
+Olga, nos gustaría conocer tu opinión acerca de la atención que has recibido en esta interacción. En los próximos minutos, recibirás una encuesta en tu correo, aliendj05@gmail.com, para calificar nuestra amabilidad y atención. Agradeceríamos mucho si puedes completarla en los próximos 3 días.🤩
+
+
+MODIFICADOS
+
+Olga, mientras esperas, nos gustaría conocer tu opinión acerca de la atención que has recibido en esta interacción. En los próximos minutos, recibirás una encuesta en tu correo, danipinedagis@hotmail.com, para calificar nuestra amabilidad y atención. Agradeceríamos mucho si puedes completarla en los próximos 3 días.🤩
+
+
+Olga, mientras esperas, nos gustaría conocer tu opinión acerca de la atención que has recibido en esta interacción. ¿Podrías por favor brindarnos un correo electrónico al que podamos enviarte una encuesta para calificar nuestra amabilidad y atención? Agradeceríamos mucho si puedes completarla en los próximos 3 días.🤩
+
+Nos gustaría conocer tu opinión acerca de la atención que has recibido en esta interacción. ¿Nos podrías por favor brindar un correo electrónico al que enviaremos una breve encuesta para calificar nuestra amabilidad y atención? Agradeceríamos mucho si puedes completarla en los próximos 3 días.🤩
+
+Mientras esperas, nos gustaría conocer tu opinión acerca de la atención que has recibido en esta interacción. ¿Nos podrías por favor brindar un correo electrónico al que enviaremos una breve encuesta para calificar nuestra amabilidad y atención? Agradeceríamos mucho si puedes completarla en los próximos 3 días.🤩
+
+----------------------------------AUTOGESTIÓN----------------------------------
+
+A propósito, descubre la mejor forma de gestionar tus servicios 📥 Consulta de factura y pagos 📲 Compra de paquetes, recarga tiempo de aire y más desde 👉 miclaro.com.gt
+
+-----------------------------------DESPEDIDA-----------------------------------
+
+
+Fue un gusto servirte. ¡En Claro trabajamos para ti porque eres importante para nosotros!👏
+
+
+CORREO
+
+Fue un gusto servirte, te estará llegando una breve encuesta a tu correo donde podrás calificar mi atención. ¡En Claro trabajamos para ti porque eres importante para nosotros!👏
+
+Fue un placer atenderte, te estará llegando una breve encuesta por correo para que califiques mi atención en esta interacción. ✨ ¡Para Claro tu opinión es muy importante!
+
+MOVIL
+
+Para nosotros fue un placer atenderte, te estará llegando por SMS una breve encuesta donde podrás calificar mi atención. Esperamos que tengas un maravilloso día.🌤
+
+Para nosotros fue un placer atenderte, te estará llegando por SMS una breve encuesta donde podrás calificar mi atención. Esperamos que tengas una maravillosa noche. 🌙
+
+NADA
+
+Para mí fue un gusto haber atendido a tu solicitud 😊, cualquier novedad o inconveniente no dudes en volver a comunicarte, recuerda que estamos disponibles las 24 horas. ✅
