@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            max-width: 200px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        textarea {
+            display: none;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        input[type="button"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        input[type="button"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" oninput="capitalizeFirstLetter(this)"><br>
+
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" oninput="capitalizeFirstLetter(this)"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono"><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad"><br>
+
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" oninput="capitalizeFirstLetter(this)"></textarea><br>
+
+        <label for="direccion">Dirección:</label><br>
+        <textarea id="direccion" name="direccion" rows="4" cols="50" oninput="capitalizeFirstLetter(this)"></textarea><br>
+
+        <input type="button" value="Copiar" onclick="copyForm()">
+    </form>
+
+    <script>
+        function capitalizeFirstLetter(element) {
+            element.value = element.value.toLowerCase().replace(/^\w|\s\w/g, function (letter) {
+                return letter.toUpperCase();
+            });
+        }
+
+        function copyForm() {
+            const formulario = document.getElementById('formulario');
+            const data = Array.from(formulario.elements)
+                .filter(elem => ['input', 'textarea'].includes(elem.tagName.toLowerCase()) && elem.type !== 'button')
+                .map(elem => `${elem.name}: ${elem.value}`)
+                .join('\n');
+
+            copyToClipboard(data);
+        }
+
+        function copyToClipboard(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            alert('Contenido del formulario copiado al portapapeles.');
+        }
+    </script>
+</body>
+
+</html>
