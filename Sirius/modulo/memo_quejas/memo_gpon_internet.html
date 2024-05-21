@@ -24,10 +24,10 @@
     }
 
     header {
-      background-color:dodgerblue;
+      background-color: dodgerblue;
       padding: 10px;
       position: fixed;
-    
+
       top: 0;
       width: 100%;
       z-index: 1000;
@@ -52,7 +52,7 @@
       text-decoration: none;
       color: white;
       font-weight: bold;
-       
+
     }
 
     .menu1 a {
@@ -63,9 +63,9 @@
     }
 
     main {
-      margin-top: 50px;
+
       /* Ajusta el margen superior para dejar espacio para el menú */
-      padding: 20px;
+      padding: 10px;
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
@@ -85,7 +85,7 @@
     }
 
     #CodigoGpon {
-      top: 100px;
+      top: 80px;
     }
 
     .gpon_internet {
@@ -94,37 +94,28 @@
       padding: 20px;
       border-radius: 10px;
       margin: 0;
-      left: 260px;
-      top: 100px;
+      left: 80px;
+      top: 220px;
       display: flex;
       flex-direction: column;
       margin-right: 10px;
-       background: linear-gradient(135deg, #71b7e6, #9b59b6);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-      
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
 
     }
-
-
-    .dsl{
-      background-color: #b0406f;
-      left: 220px;
-      top: 730px;
-      position: absolute;
-      padding: 20px;
-      border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-       margin-right: 10px;
-        margin-bottom: 20px;
-      
-      width: 200px;
-      
-    }
+h5{
+margin-bottom: 3px;
+margin-top: 5px;
+  text-align: center;
+}
 
     #formulario {
+      margin-bottom: 5px;
+      padding: 5px;
       display: flex;
       flex-direction: column;
+      width: 300px;
     }
 
 
@@ -142,27 +133,22 @@
     }
 
     button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background: #fff;
-    color: #9b59b6;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s, color 0.3s;
-}
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #fff;
+      color: #9b59b6;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+    }
 
-button:hover {
-    background: #8e44ad;
-    color: #fff;
-}
-
-    
-    
-
-
+    button:hover {
+      background: #8e44ad;
+      color: #fff;
+    }
   </style>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Memo Quejas +</title>
@@ -197,12 +183,7 @@ button:hover {
 
     <section id="gpon_internet" class="main-section">
       <div class="codigo" id="CodigoGpon">
-        <p class="titulo_codigo"><b>CODIGO QUEJAS Y ETAPA</b></p>
-        <p><b>Tipo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Codigo&emsp;&emsp;&emsp;&emsp;Etapa</b></p>
-        <p>LINEA FIJA &emsp;&emsp;&emsp;&emsp;&emsp;GP 72&emsp;&emsp;&emsp;&emsp;&emsp;A</p>
-        <p>INTERNET &emsp;&emsp;&emsp;&emsp;&emsp;GP 73&emsp;&emsp;&emsp;&emsp;&emsp;A</p>
-        <p>IPTV&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;GP 75&emsp;&emsp;&emsp;&emsp;&emsp;A</p>
-        <p>TODOS/SERVICIOS&emsp;GP 76&emsp;&emsp;&emsp;&emsp;&emsp;A</p>
+        <img src="./imagen/gpon.png" width="400px" height="100px" />
       </div>
 
       <div class="gpon_internet">
@@ -242,9 +223,11 @@ button:hover {
           <input type="text" id="problema" name="problema" value="NO NAVEGA" required>
 
           <label for="pruebas">Pruebas realizadas::</label>
-<input type="text" id="pruebas" name="pruebas" value="SALDOS OK, NO FALLAS, NO QUEJAS, NO BLOQUEO, NO O/S, NO QUEJAS, SE DESCONECTA Y CONECTA CORRIENTE, RESET DE PISA, SE GENERA AVERIA" required>
+          <input type="text" id="pruebas" name="pruebas"
+            value="SALDOS OK, NO FALLAS, NO QUEJAS, NO BLOQUEO, NO O/S, NO QUEJAS, SE DESCONECTA Y CONECTA CORRIENTE, RESET DE PISA, SE GENERA AVERIA"
+            required>
 
-            
+
 
 
           <label for="contacto">Contacto en sitio:::</label>
@@ -255,7 +238,8 @@ button:hover {
           <input type="text" id="tel" name="tel" placeholder="Tel de contacto" required>
 
           <label for="direccion">Direccion:::::::::::</label>
-          <input type="text" id="direccion" name="direccion" placeholder="Direccion"  oninput="capitalizeFirstLetter(this)" required>
+          <input type="text" id="direccion" name="direccion" placeholder="Direccion"
+            oninput="capitalizeFirstLetter(this)" required>
 
 
 
@@ -273,15 +257,15 @@ button:hover {
       </div>
 
     </section>
-   
+
   </main>
 
   <script>
- function capitalizeFirstLetter(element) {
-            element.value = element.value.toLowerCase().replace(/^\w|\s\w/g, function (letter) {
-                return letter.toUpperCase();
-            });
-        }
+    function capitalizeFirstLetter(element) {
+      element.value = element.value.toLowerCase().replace(/^\w|\s\w/g, function (letter) {
+        return letter.toUpperCase();
+      });
+    }
 
     function copiarFormulario() {
       var formulario = document.activeElement.parentElement.parentElement;
