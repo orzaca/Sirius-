@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menús Superior e Inferior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .top-menu {
+            background-color: #ffd166; /* Amarillo suave */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .top-menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .top-menu li {
+            margin: 0 10px;
+        }
+        .top-menu li a {
+            color: #333333; /* Color del texto */
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+        .top-menu li a:hover {
+            background-color: #4a90e2; /* Azul suave al pasar el cursor */
+            transform: translateY(-3px);
+        }
+        .top-menu li a i {
+            margin-right: 10px;
+        }
+
+        .bottom-menu {
+            background-color: #4a90e2; /* Azul suave */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .bottom-menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .bottom-menu li {
+            margin: 0 10px;
+        }
+        .bottom-menu li a {
+            color: #ffffff; /* Color del texto */
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+        .bottom-menu li a:hover {
+            background-color: #ffd166; /* Amarillo suave al pasar el cursor */
+            transform: translateY(-3px);
+        }
+        .bottom-menu li a i {
+            margin-right: 10px;
+        }
+    </style>
+    <!-- Importación de la librería de iconos de Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top-menu">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i>Inicio</a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i>Información</a></li>
+            <li><a href="#"><i class="fas fa-user"></i>Perfil</a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
+            <li><a href="#"><i class="fas fa-cogs"></i>Configuración</a></li>
+            <li><a href="#"><i class="fas fa-question-circle"></i>Ayuda</a></li>
+        </ul>
+    </div>
+
+    <div class="bottom-menu">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i>Inicio</a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i>Información</a></li>
+            <li><a href="#"><i class="fas fa-user"></i>Perfil</a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i>Contacto</a></li>
+            <li><a href="#"><i class="fas fa-cogs"></i>Configuración</a></li>
+            <li><a href="#"><i class="fas fa-question-circle"></i>Ayuda</a></li>
+        </ul>
+    </div>
+</body>
+</html>
