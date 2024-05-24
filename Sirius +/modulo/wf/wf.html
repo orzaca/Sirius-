@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantillas WF / Sirius +</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: 100vh;
+        }
+
+        label {
+      display: none;
+      /* Oculta los textos de las etiquetas */
+    }
+        .container {
+            width: 500px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        .message {
+            margin-bottom: 20px;
+        }
+        .message p {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            color: #333;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+        }
+        .toggle-button {
+            font-size: 24px;
+            color: #007bff;
+        }
+        .form-container {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            width: 500px;
+        }
+        .form-container form div {
+            margin-bottom: 10px;
+        }
+        .form-container label {
+            
+            display: none;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+        .form-container input[type="text"],
+        .form-container input[type="email"] {
+            width: calc(100% - 22px);
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-container input[type="button"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        .form-container input[type="button"]:hover {
+            background-color: #0056b3;
+        }
+
+        .botones-copiar {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #fff;
+      color: #9b59b6;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    button:hover {
+      background: #8e44ad;
+      color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <p>
+                Cambio de equipo por aumento de velocidad
+                <span class="toggle-button">[+]</span>
+            </p>
+            <div class="form-container">
+
+                
+                <form>
+                    <div>
+                        <label for="asunto">ASUNTO</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="ASUNTO" >
+                    </div>
+                    <div>
+                        <label for="titular">NOMBRE DE TITULAR</label>
+                        <input type="text" id="titular" name="titular" placeholder="NOMBRE TITULAR" >
+                    </div>
+                  
+                    <div>
+                        <label for="telefono">TEL.REF</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="TELEFONO">
+                    </div>
+                    <div>
+                        <label for="EquipoActual">EQUIPO ACTUAL</label>
+                        <input type="text" id="EquipoActual" name="EquipoActual" placeholder="EQUIPO ACTUAL">
+                    </div>
+                    <div>
+                        <label for="modelo">MODELO</label>
+                        <input type="text" id="modelo" name="modelo" placeholder="MODELO">
+                    </div>
+                    <div>
+                        <label for="direccion">DIRECCIÓN DE INSTALACIÓN</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="DIRECCIÓN DE INSTALACIÓN">
+                    </div>
+                    <div>
+                        <label for="horario">HORARIO DE VISITA</label>
+                        <input type="text" id="horario" name="horario" placeholder="HORARIO DE VISITA">
+                    </div>
+                    <div>
+                        <label for="observaciones">OBSERVACIONES</label>
+                        <input type="text" id="observaciones" name="observaciones" placeholder="OBSERVACIONES">
+                    </div>
+                    <div>
+                        <label for="call">CALL CENTER</label>
+                        <input type="text" id="call" name="call" placeholder="CALL CENTER">
+                    </div>
+                    <div> 
+                        <label for="nombre">NOMBRE ASESORS</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="NOMBRE ASESOR">
+                    </div>
+                    <div class="botones-copiar">
+                        <button type="button" onclick="copiarFormulario()">Copiar Memo</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="message">
+            <p>
+                Orden de Servicio Conectividad
+                <span class="toggle-button">[+]</span>
+            </p>
+            <div class="form-container">
+                <form>
+                    <div>
+                        <label for="name2">Nombre:</label>
+                        <input type="text" id="name2" name="name2">
+                    </div>
+                    <div>
+                        <label for="email2">Email:</label>
+                        <input type="email" id="email2" name="email2">
+                    </div>
+                    <div>
+                        <label for="phone2">Teléfono:</label>
+                        <input type="text" id="phone2" name="phone2">
+                    </div>
+                    <div>
+                        <label for="address2">Dirección:</label>
+                        <input type="text" id="address2" name="address2">
+                    </div>
+                    <div>
+                        <label for="city2">Ciudad:</label>
+                        <input type="text" id="city2" name="city2">
+                    </div>
+                    <div>
+                        <label for="state2">Estado:</label>
+                        <input type="text" id="state2" name="state2">
+                    </div>
+                    <div>
+                        <label for="zip2">Código Postal:</label>
+                        <input type="text" id="zip2" name="zip2">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButtons = document.querySelectorAll('.toggle-button');
+            const formContainers = document.querySelectorAll('.form-container');
+
+            toggleButtons.forEach((button, index) => {
+                button.addEventListener('click', function() {
+                    if (formContainers[index].style.display === 'none' || formContainers[index].style.display === '') {
+                        formContainers[index].style.display = 'block';
+                        button.textContent = '[-]';
+                    } else {
+                        formContainers[index].style.display = 'none';
+                        button.textContent = '[+]';
+                    }
+                });
+            });
+        });
+
+
+
+        //FUNCION DE COPIAR
+
+function capitalizeFirstLetter(element) {
+            element.value = element.value.toLowerCase().replace(/^\w|\s\w/g, function (letter) {
+                return letter.toUpperCase();
+            });
+        }
+    function copiarFormulario() {
+      var formulario = document.activeElement.parentElement.parentElement;
+      var inputs = formulario.getElementsByTagName('input');
+      var textoCopiado = '';
+
+      for (var i = 0; i < inputs.length; i++) {
+        var label = inputs[i].previousElementSibling.innerText;
+        var valor = inputs[i].value;
+        textoCopiado += label + ': ' + valor + '\n';
+      }
+
+      // Crear un textarea temporal para copiar el texto
+      var textareaTemporal = document.createElement('textarea');
+      textareaTemporal.value = textoCopiado;
+      document.body.appendChild(textareaTemporal);
+
+      // Seleccionar y copiar el texto
+      textareaTemporal.select();
+      document.execCommand('copy');
+
+      // Eliminar el textarea temporal
+      document.body.removeChild(textareaTemporal);
+
+      alert('Formulario copiado al portapapeles. Pega en el Bloc de notas o en tu editor preferido.');
+    }
+    </script>
+</body>
+</html>
