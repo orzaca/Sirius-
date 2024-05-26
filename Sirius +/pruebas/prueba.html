@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .option {
+            cursor: pointer;
+        }
+
+        .option:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <span class="option">Opción 1</span>
+        <div class="dropdown-content">
+            <p>Este es el párrafo para la Opción 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <span class="option">Opción 2</span>
+        <div class="dropdown-content">
+            <p>Este es el párrafo para la Opción 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+
+    <!-- Repite lo siguiente para las otras opciones -->
+    <!-- Opción 3, Opción 4, Opción 5 -->
+
+    <script>
+        // JavaScript para mostrar los párrafos al hacer clic en las opciones
+        const options = document.querySelectorAll('.option');
+        const paragraphs = document.querySelectorAll('.dropdown-content p');
+
+        options.forEach((option, index) => {
+            option.addEventListener('click', () => {
+                paragraphs.forEach((p, i) => {
+                    p.style.display = i === index ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
